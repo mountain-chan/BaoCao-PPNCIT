@@ -1,0 +1,192 @@
+\documentclass[12pt,twoside,a4paper]{article}
+\usepackage{vntex}
+\usepackage{titlesec}
+\usepackage{indentfirst}
+\usepackage{geometry}
+\usepackage{tabularx}
+
+\geometry{
+	a4paper,
+	total={175mm,257mm},
+	left=20mm,
+	top=20mm,
+}
+
+\setlength{\parskip}{10pt}
+\titleformat*{\section}{\large\bfseries}
+\setlength{\parindent}{2em}
+
+\begin{document}
+
+\begin{center}
+\vfill
+\begin{tabular*}{0.8\linewidth}{@{\extracolsep{\fill}}cc}
+	\large BỘ GIÁO DỤC VÀ ĐÀO TẠO  & \large BỘ QUỐC PHÒNG \\
+\end{tabular*}
+\\
+\large HỌC VIỆN KỸ THUẬT QUÂN SỰ
+\\
+\rule{200px}{1px}\\
+ĐỀ CƯƠNG ĐỒ ÁN TỐT NGHIỆP ĐẠI HỌC \\
+
+\end{center}
+\vfill
+Chuyên ngành: Công nghệ dữ liệu\\
+Mã số:\\
+Ngày giao đồ án:\\
+Ngày nộp đồ án:\\
+Tên đề tài: Nhận diện các phương tiện giao thông đi ngược chiều qua camera lắp đặt cố định tại một tuyến đường\\
+Học viên thực hiện:
+\smallbreak
+\begin{tabularx}{\linewidth}{l l}
+	 Lý Văn Chản  & CNDL 15\\
+	 Nguyễn Ngọc Khánh  & CNDL 15\\
+	 Bùi Đình Thủy  &  CNDL 15\\
+\end{tabularx}\\\\\\
+Cán bộ hướng dẫn:
+Họ và tên: Trần Cao Trưởng\\
+Cấp bậc: Thạc Sỹ\\
+Học hàm, học vị: GV, Th.S\\
+Đơn vị: Bộ môn Khoa học máy tính\\
+
+\begin{center}
+Hà Nội - Năm 2019
+\end{center}
+
+\vfill
+\pagebreak
+
+
+
+\begin{center}
+ĐỀ CƯƠNG ĐỒ ÁN TỐT NGHIỆP ĐẠI HỌC
+\end{center}
+Tên đề tài: Nhận diện các phương tiện giao thông đi ngược chiều qua camera lắp đặt cố định tại một tuyến đường\\
+Chuyên ngành: Công Nghệ Dữ Liệu
+Thời gian thực hiện: 14 tuần
+
+
+
+\section{Cơ sở khoa học và tính thực tiễn của đề tài}
+Hiện nay trên thế giới, các công nghệ nhận dạng hình ảnh đã trở nên vô cùng phát triển, tuy nhiên ở Việt Nam vẫn chưa được áp dụng nhiều, đặc biệt là trong lĩnh vực giao thông. Hiện tại tình trạng giao thông ở Việt Nam còn nhiều bất ổn do ý thức người dân chưa chấp hành tốt luật giao thông và một phần công tác quản lý giao thông chưa triệt để. Nếu công nghệ trí tuệ nhân tạo được áp dụng vào giao thông thì sẽ giúp công tác giao thông có được một lợi thế lớn. Chẳng hạn như sẽ giảm thiểu công việc của cảnh sát giao thông, do công an giao thông không thể giám sát được mọi nơi nên việc áp dụng trí tuệ nhân tạo sẽ dễ dàng bao quát mọi nơi với độ chính xác cao sẽ giúp phát hiện toàn bộ các phương tiện vi phạm luật giao thông. Tất cả các phương tiện vi phạm này sẽ bị ghi lại và bị xử phạt để cảnh cáo, từ đó sẽ hạn chế được nạn vi phạm giao thông tràn lan ở Việt Nam.
+\par
+Từ đó, nhóm chúng em muốn làm một đề tài liên quan đến việc áp dụng trí tuệ nhân tạo vào lĩnh vực giao thông: Nhận diện các phương tiện đi ngược chiều trên các tuyến đường một chiều qua một camera lắp cố định (có thể bao quát được toàn bộ hai lòng đường, chẳng hạn camera lắp tại một vị trí trên cao chính giữa hai lòng đường Hoàng Quốc Việt) với mục tiêu là phát hiện toàn bộ các phương tiện đi ngược chiều, camera ghi lại và báo cáo cho hệ thống rồi tiến hành xử phạt.
+\par
+Để thực hiện được đề tài này, chúng em cần những công cụ sau: Một camera độ phân giải cao được lắp đặt tại trung tâm 2 làn đường, một hệ thống máy tính có cấu hình đủ mạnh để xử lý hình ảnh camera đưa về, sử dụng ngôn ngữ Python với các thư viện như OpenCV để nhận diện phần lòng đường, mô hình YOLO để detect các đối tượng trong hình ảnh (các phương tiện và chiều)
+\section{Mục tiêu của đề tài}
+Với mong muốn góp phần nâng cao ý thức của cộng đồng, giảm thiểu tai nạn giao thông, hướng tới phát triển thành phố thông minh, nhóm em áp dụng hệ thống trí tuệ nhân tạo vào giao thông để theo dõi, tự nhận biết các phương tiện giao thông đi ngược chiều và lưu dữ liệu phục vụ cho việc phạt nguội của cảnh sát giao thông. Từ đó sẽ giảm thiểu được công việc của cảnh sát giao thông và nâng cao độ chính xác trong việc bắt lỗi giao thông.
+\section{Phương pháp nghiên cứu}
+Trước hế, về lý thuyết nhóm em cần tìm hiểu quy trình xây dựng phần mềm, thu thập khảo sát dữ liệu, sử dụng python, camera, xi măng ...
+\par
+Còn về thực nghiệm nhóm em cần có kỹ năng xàm lồn ...
+\section{Nội dung nghiên cứu}
+OpenCV (Open Computer Vision) là một thư viện mã nguồn mở hàng đầu cho xử lý về thị giác máy tính, machine learning, xử lý ảnh. OpenCV được viết bằng C/C++, vì vậy có tốc độ tính toán rất nhanh, có thể sử dụng với các ứng dụng liên quan đến thời gian thực. Opencv có rất nhiều ứng dụng như Nhận dạng ảnh, Xử lý hình ảnh, Phục hồi hình ảnh ...
+\par
+CNN (Convolutional Neural Network – Mạng nơ-ron tích chập) là một trong những mô hình Deep Learning tiên tiến. Nó giúp cho chúng ta xây dựng được những hệ thống thông minh với độ chính xác cao như hiện nay. CNN được sử dụng nhiều trong các bài toán nhận dạng các object trong ảnh. Như hệ thống xử lý ảnh lớn như Facebook, Google hay Amazon đã đưa vào sản phẩm của mình những chức năng thông minh như nhận diện khuôn mặt người dùng, phát triển xe hơi tự lái hay drone giao hàng tự động.
+\par
+YOLO (You only look once) là một mô hình CNN để detect object mà một ưu điểm nổi trội là nhanh, chính xác hơn nhiều so với những mô hình cũ. Với đầu vào là một bức ảnh, hệ thống sẽ khoanh vùng toàn bộ các vật thể xuất hiện trong bức ảnh đó. Hiện tại có 3 phiên bản là YOLOv1, YOLOv2, YOLOv3, phiên bản v3 cực kỳ nhanh và chính xác, tốc độ detect các object trong bức ảnh gần là ngay lập tức.
+\par
+Với đề tài nhóm em, đầu tiên sau khi lắp đặt camera, cần một bước để hệ thống xác định ra 2 làn đường và chiều đi đúng của 2 làn với 2 cách sau: Cách 1 là làm thủ công, sau khi lắp sẽ quy định luôn cho hệ thống các tọa độ của hai làn đường và chiều đi đúng luôn. Cách 2 là để hệ thống tự động nhận diện, trước tiên là lòng đường, sử dụng thư viện OpenCV với các hàm như findContours() và convexHull() để xác định ra được hai làn đường, lưu tọa độ các đỉnh làn đường lại để dùng về sau. Tiếp đó là cần xác định chiều cho 2 làn đường vừa xác định, cần bỏ ra một ngày để hệ thống training, trong một ngày, với mỗi làn đường, hệ thống sẽ liên tục đếm các phương tiện di chuyển theo cả hai chiều, từ đó chiều nào có số lượng xe đi đông hơn sẽ là chiều đúng.
+\par
+Tiếp đến, để xác định chiều đi của các phương tiện, trước tiên chúng em sẽ sử dụng mô hình YOLO để detect ra các phương tiện có trong bức ảnh, sau đó dựa vào các bức ảnh liên tục thì sẽ xác định được sự di chuyển của các phương tiện, từ đó xác định ra được chiều đi.
+\par
+Sau khi xác định được chiều đi của phương tiện, hệ thống sẽ kiểm tra xem phương tiện này đang ở làn nào (làn đã được hệ thống xác định), và so sánh với chiều đi đúng của làn đó, nếu sai chiều thì hệ thống sẽ gửi thông tin bao gồm hình ảnh bằng chứng, thời gian, địa điểm vi phạm, biến số xe, loại phương tiện về để làm dữ liệu phục vụ cho việc phạt nguội của cảnh sát giao thông.
+\par
+Kết quả đạt được: Một hệ thống làm việc khá nhanh và chính xác phân tích, xử lý dữ liệu gần như ngay lập tức, góp phần cải thiện hệ thống giao thông còn nhiều bất cập ở Việt Nam hiện nay.
+\section{Nội dung nghiên cứu}
+\renewcommand{\labelenumi}{\arabic{enumi}.}
+\renewcommand{\labelenumii}{\labelenumi\arabic{enumii}.}
+\renewcommand{\labelenumiii}{\labelenumii\arabic{enumiii}.}
+\large
+\begin{enumerate}
+	\item Chương 1. Giới thiệu
+	\begin{enumerate}
+		\item Đặt vấn đề
+		\item Lý do chọn đề tài 
+		\item Mục tiêu đặt ra
+	\end{enumerate}
+	\item Chương 2. Nghiên cứu tổng quan về đề tài
+	\begin{enumerate}
+		\item Tìm hiểu về OpenCV
+		\item Tìm hiểu về CNN và YOLO
+		\item Các thành tựu trên thế giới về áp dụng trí tuệ nhân tạo trong giao thông
+	\end{enumerate}
+	\item Chương 3. Phương pháp nghiên cứu
+	\begin{enumerate}
+		\item Cài đặt và chuẩn bị
+		\begin{enumerate}
+			\item Cài đặt camera
+			\item Nhận dạng hai làn đường
+			\item Nhận dạng chiều đúng mỗi làn đường
+		\end{enumerate}
+		\item Nhận chiều phương tiện bằng YOLO
+		\begin{enumerate}
+			\item Nhận diện phương tiện trong ảnh
+			\item Nhận diện chiều các phương tiện
+		\end{enumerate}
+	\end{enumerate}
+	\item Chương 4. Thảo luận
+	\begin{enumerate}
+		\item Đánh giá số liệu
+		\item Điểm mạnh
+		\item Hạn chế
+		\item Xem xét kết quả
+	\end{enumerate}
+	\item Chương 5. Tổng kết
+\end{enumerate}
+\leavevmode \\
+\textbf {Kết luận và hướng phát triển}
+\begin{enumerate}
+	\item Kết luận \\
+	Với tình trạng giao thông Việt Nam hiện nay thì việc áp dụng trí tuệ nhân tạo vào là cần thiết, để triển khai trí tuệ nhân tạo vào việc điều hành, điều tiết hoạt động giao thông, Việt Nam sẽ phải đối mặt với rất nhiều thách thức. Tuy vậy, nếu ứng dụng thành công trí tuệ nhân tạo, đây sẽ là lời giải cho bài toán giao thông vốn ngày càng hóc búa do sự phát triển quá nóng của các phương tiện tham gia giao thông tại Việt Nam.
+	\item Hướng phát triển \\
+	Hệ thống có thể cần cải thiện thêm về tốc độ để làm việc Real-time, cải tiến các bước tiền xử lý để chính xác hơn, tránh nhầm lẫn trong việc xác định nhầm phương tiện, nhầm chiều. Hệ thống có thể cải tiến thêm các chức năng như phát hiện vi phạm vượt đèn đỏ, đi ngược chiều, đi sai làn, đỗ xe không đúng nơi quy định ... khi gửi dữ liệu về cần phải nhận dạng đầy đủ các thông tin của xe vi phạm như biển số xe, thời gian, địa điểm, loại phương tiện, loại vi phạm ...
+\end{enumerate}
+\section{Tài liệu tham khảo}
+\renewcommand{\labelenumi}{[\arabic{enumi}]}
+\begin{enumerate}
+	\item OpenCV Pro
+	\item CNN Pro
+	\item YOLO Pro
+	\item YOLO2 Pro
+\end{enumerate}
+
+\section{Dự kiến kế hoạch thực hiện}
+
+\renewcommand{\arraystretch}{2}
+\begin{center}
+	\begin{tabular}{|p{10mm}|p{48mm}|p{22mm}|p{26mm}|l|} 
+		\hline 
+		STT & Nội dung công việc & Thời gian thực hiện & Địa điểm thực hiện & Ghi chú \\ 
+		\hline
+		1 & Tìm hiểu về OpenCV & 2 Tuần & Tại nhà & Nguyễn Ngọc Khánh \\
+		\hline
+		2 & Tìm hiểu về CNN và YOLO & 2 Tuần & Tại nhà & Lý Văn Chản \\
+		\hline
+		3 & Tìm hiểu các thành tựu & 2 Tuần & Tại nhà & Bùi Đình Thủy \\
+		\hline
+		4 & Viết chương trình & 6 Tuần & Tại phòng nghiên cứu & Cả nhóm \\
+		\hline
+		5 & Lắp đặt hệ thống & 1 Tuần & Tại nơi lắp đặt & Cả nhóm \\
+		\hline
+		6 & Đánh giá số liệu & 5 Tuần & Tại phòng nghiên cứu & Cả nhóm \\
+		\hline
+	\end{tabular}
+\end{center}
+\section{Các cơ quan, đơn vị cần liên hệ}
+\section{Kinh phí thực hiện đề tài}
+
+\pagebreak
+\begin{flushright}
+Ngày 03 tháng 10 năm 2019
+\end{flushright}
+\begin{tabularx}{\linewidth}{@{\extracolsep{\fill}}l l}
+	Chủ nhiệm bộ môn  & Người lập đề cương\\
+\end{tabularx}\\\\\\\\\\
+\begin{tabularx}{\linewidth}{@{\extracolsep{\fill}}l l}
+	Chủ nhiệm khoa  & Giáo viên hướng dẫn\\
+\end{tabularx}
+
+\end{document}
+
+

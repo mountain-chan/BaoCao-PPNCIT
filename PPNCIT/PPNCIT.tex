@@ -1,5 +1,6 @@
 \documentclass[12pt,twoside,a4paper]{article}
 \usepackage{vntex}
+\usepackage{import}
 \usepackage{titlesec}
 \usepackage{indentfirst}
 \usepackage{geometry}
@@ -17,46 +18,12 @@
 \setlength{\parindent}{2em}
 
 \begin{document}
-
-\begin{center}
-\vfill
-\begin{tabular*}{0.8\linewidth}{@{\extracolsep{\fill}}cc}
-	\large BỘ GIÁO DỤC VÀ ĐÀO TẠO  & \large BỘ QUỐC PHÒNG \\
-\end{tabular*}
-\\
-\large HỌC VIỆN KỸ THUẬT QUÂN SỰ
-\\
-\rule{200px}{1px}\\
-ĐỀ CƯƠNG ĐỒ ÁN TỐT NGHIỆP ĐẠI HỌC \\
-
-\end{center}
-\vfill
-Chuyên ngành: Công nghệ dữ liệu\\
-Mã số:\\
-Ngày giao đồ án:\\
-Ngày nộp đồ án:\\
-Tên đề tài: Nhận diện các phương tiện giao thông đi ngược chiều qua camera lắp đặt cố định tại một tuyến đường\\
-Học viên thực hiện:
-\smallbreak
-\begin{tabularx}{\linewidth}{l l}
-	 Lý Văn Chản  & CNDL 15\\
-	 Nguyễn Ngọc Khánh  & CNDL 15\\
-	 Bùi Đình Thủy  &  CNDL 15\\
-\end{tabularx}\\\\\\
-Cán bộ hướng dẫn:
-Họ và tên: Trần Cao Trưởng\\
-Cấp bậc: Thạc Sỹ\\
-Học hàm, học vị: GV, Th.S\\
-Đơn vị: Bộ môn Khoa học máy tính\\
-
-\begin{center}
-Hà Nội - Năm 2019
-\end{center}
-
-\vfill
+	
+\input{coverPage}
 \pagebreak
 
-
+\input{page1}
+\pagebreak
 
 \begin{center}
 ĐỀ CƯƠNG ĐỒ ÁN TỐT NGHIỆP ĐẠI HỌC
@@ -64,7 +31,6 @@ Hà Nội - Năm 2019
 Tên đề tài: Nhận diện các phương tiện giao thông đi ngược chiều qua camera lắp đặt cố định tại một tuyến đường\\
 Chuyên ngành: Công Nghệ Dữ Liệu
 Thời gian thực hiện: 14 tuần
-
 
 
 \section{Cơ sở khoa học và tính thực tiễn của đề tài}
@@ -177,15 +143,7 @@ Kết quả đạt được: Một hệ thống làm việc khá nhanh và chín
 \section{Kinh phí thực hiện đề tài}
 
 \pagebreak
-\begin{flushright}
-Ngày 03 tháng 10 năm 2019
-\end{flushright}
-\begin{tabularx}{\linewidth}{@{\extracolsep{\fill}}l l}
-	Chủ nhiệm bộ môn  & Người lập đề cương\\
-\end{tabularx}\\\\\\\\\\
-\begin{tabularx}{\linewidth}{@{\extracolsep{\fill}}l l}
-	Chủ nhiệm khoa  & Giáo viên hướng dẫn\\
-\end{tabularx}
+\input{signPage}
 
 \end{document}
 

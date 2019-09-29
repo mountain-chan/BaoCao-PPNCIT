@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.16)  29 SEP 2019 17:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.31)  29 SEP 2019 19:19
 entering extended mode
 **./PPNCIT.tex
 (PPNCIT.tex
 LaTeX2e <2018-12-01>
-("C:\Users\Dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
+("C:\Users\Dealer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-("C:\Users\Dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo"
+("C:\Users\Dealer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo"
 File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -19,22 +19,20 @@ File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-("C:\Users\Dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/vntex\vntex.sty"
+) ("C:\Users\Dealer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/vntex\vntex.sty
+"
 Package: vntex 2009/07/12 v1.1 support for Vietnamese
-
-("C:\Users\Dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+ ("C:\Users\Dealer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Users\Dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+("C:\Users\Dealer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty"
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
-
-("C:\Users\Dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/vntex\t5enc.def"
+("C:\Users\Dealer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/vntex\t5enc.def"
 File: t5enc.def 2006/11/21 v1.4 Vietnamese T5 encoding
 Now handling font encoding T5 ...
 ... processing UTF-8 mapping file for font encoding T5
 
-("C:\Users\Dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/vntex\t5enc.dfu"
+("C:\Users\Dealer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/vntex\t5enc.dfu"
 File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
    defining Unicode char U+00AB (decimal 171)
    defining Unicode char U+00BB (decimal 187)
@@ -189,26 +187,28 @@ File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
    defining Unicode char U+2423 (decimal 9251)
 ))
 LaTeX Font Info:    Try loading font information for T5+cmr on input line 105.
-
-("C:\Users\Dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/vntex\t5cmr.fd"
+ ("C:\Users\Dealer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/vntex\t5cmr.fd"
 File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ))
 
 Package vntex Warning: No input encoding specified, using UTF-8 as default on i
 nput line 88.
 
-("C:\Users\Dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+("C:\Users\Dealer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty
+"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
-) ("C:\Users\Dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/vntex\vncaps.tex"
+)
+("C:\Users\Dealer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/vntex\vncaps.tex"
 File: vncaps.tex 2006/06/07 v1.1 Captions in Vietnamese
-)) ("C:\Users\Dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/import\import.st
-y"
+))
+("C:\Users\Dealer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/import\import.sty
+"
 Package: import 2009/03/23  v 5.1
 )
-("C:\Users\Dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlesec\titlesec.s
-ty"
+("C:\Users\Dealer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlesec\titlesec
+.sty"
 Package: titlesec 2019/09/09 v2.12 Sectioning titles
 \ttl@box=\box27
 \beforetitleunit=\skip43
@@ -220,30 +220,30 @@ Package: titlesec 2019/09/09 v2.12 Sectioning titles
 \titlewidthlast=\dimen106
 \titlewidthfirst=\dimen107
 )
-("C:\Users\Dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\indentfirst.s
-ty"
+("C:\Users\Dealer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\indentfirst
+.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-("C:\Users\Dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.s
-ty"
+("C:\Users\Dealer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry
+.sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
-("C:\Users\Dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.sty
-"
+("C:\Users\Dealer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.s
+ty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-("C:\Users\Dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.st
-y"
+("C:\Users\Dealer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.
+sty"
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-("C:\Users\Dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.s
-ty"
+("C:\Users\Dealer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvtex
+.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Users\Dell\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.s
-ty"
+("C:\Users\Dealer\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex
+.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -259,11 +259,12 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen115
 \Gm@dimlist=\toks18
 
-("C:\Users\Dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.c
-fg"))
-("C:\Users\Dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\tabularx.sty"
+("C:\Users\Dealer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry
+.cfg"))
+("C:\Users\Dealer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\tabularx.st
+y"
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
-("C:\Users\Dell\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
+ ("C:\Users\Dealer\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \col@sep=\dimen116
 \ar@mcellbox=\box28
@@ -280,8 +281,7 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \TX@delta=\dimen122
 \TX@cols=\count91
 \TX@ftn=\toks20
-)
-(PPNCIT.aux)
+) (PPNCIT.aux)
 \openout1 = `PPNCIT.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -342,7 +342,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
 ) [1
 
-{C:/Users/Dell/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (page1.tex
+{C:/Users/Dealer/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (page1.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -419,17 +419,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--157
 [9] (PPNCIT.aux) ) 
 Here is how much of TeX's memory you used:
  1892 strings out of 492895
- 24773 string characters out of 3124202
+ 24381 string characters out of 3123268
  94794 words of memory out of 3000000
  5812 multiletter control sequences out of 15000+200000
  11189 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,8n,28p,1187b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Dell/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-vntex/vnr/vnbx12.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/vntex/vnr/vnr12.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/vntex/vnr/vnr17.pfb>
-Output written on PPNCIT.pdf (9 pages, 72556 bytes).
+<C:/Users/Dealer/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/vntex/vnr/vnbx12.pfb><C:/Users/Dealer/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/vntex/vnr/vnr12.pfb><C:/Users/Dealer/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/vntex/vnr/vnr17.pfb>
+Output written on PPNCIT.pdf (9 pages, 72558 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

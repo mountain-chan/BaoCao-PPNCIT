@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.31)  12 OCT 2019 10:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.31)  12 OCT 2019 10:37
 entering extended mode
 **./PPNCIT.tex
 (PPNCIT.tex
@@ -387,36 +387,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--148
 []|\T5/cmr/m/n/14.4 T¤i pháng
  []
 
-[7]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
-(signPage.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 6--157
+(signPage.tex [7])
+Underfull \hbox (badness 10000) in paragraph at lines 6--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--157
+Underfull \hbox (badness 10000) in paragraph at lines 6--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--157
+Underfull \hbox (badness 10000) in paragraph at lines 6--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--157
+Underfull \hbox (badness 10000) in paragraph at lines 6--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--157
+Underfull \hbox (badness 10000) in paragraph at lines 6--155
 
  []
 
-[9] (PPNCIT.aux) ) 
+[8] (PPNCIT.aux) ) 
 Here is how much of TeX's memory you used:
  1892 strings out of 492895
  24416 string characters out of 3123268
@@ -429,9 +425,9 @@ Here is how much of TeX's memory you used:
 1/vntex/vnr/vnbx12.pfb><C:/Users/Dealer/AppData/Local/Programs/MiKTeX 2.9/fonts
 /type1/vntex/vnr/vnr12.pfb><C:/Users/Dealer/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/vntex/vnr/vnr17.pfb>
-Output written on PPNCIT.pdf (9 pages, 72471 bytes).
+Output written on PPNCIT.pdf (8 pages, 72041 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
+ 41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

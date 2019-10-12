@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.31)  29 SEP 2019 19:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.31)  12 OCT 2019 10:24
 entering extended mode
 **./PPNCIT.tex
 (PPNCIT.tex
@@ -419,7 +419,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--157
 [9] (PPNCIT.aux) ) 
 Here is how much of TeX's memory you used:
  1892 strings out of 492895
- 24381 string characters out of 3123268
+ 24416 string characters out of 3123268
  94794 words of memory out of 3000000
  5812 multiletter control sequences out of 15000+200000
  11189 words of font info for 30 fonts, out of 3000000 for 9000
@@ -429,7 +429,7 @@ Here is how much of TeX's memory you used:
 1/vntex/vnr/vnbx12.pfb><C:/Users/Dealer/AppData/Local/Programs/MiKTeX 2.9/fonts
 /type1/vntex/vnr/vnr12.pfb><C:/Users/Dealer/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/vntex/vnr/vnr17.pfb>
-Output written on PPNCIT.pdf (9 pages, 72558 bytes).
+Output written on PPNCIT.pdf (9 pages, 72471 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
